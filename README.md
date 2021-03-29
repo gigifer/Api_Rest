@@ -5,13 +5,12 @@ Esta prueba técnica permite evaluar la aplicación de lo siguiente:
 * Autenticación de usuario
 * Token de seguridad de usuario
 * Integración con Front-End
-* Documentación con Swagger
 
-**Técnologías usadas
+## Tecnologías usadas
 *PHP
 *Laravel
 *Mysql
-*Swagger
+
 
 ## Como usar la API:
 1. Correr el proyecto iniciando el servidor con
