@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FrontController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +13,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//
 Route::get('/', function () {
-    return view('welcome');
-});
+     return view('welcome');
+ });
+
+Route::get('/', [FrontController::class, 'index']);
+Route::post('/crear', [FrontController::class, 'store']);
+Route::view('/crear', 'crear');
+Route::post('/actualizar', [FrontController::class, 'update']);
+Route::get('/actualizar/{id}', [FrontController::class, 'edit']);
