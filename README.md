@@ -7,9 +7,9 @@ Esta prueba técnica permite evaluar la aplicación de lo siguiente:
 * Integración con Front-End
 
 ## Tecnologías usadas
-*PHP
-*Laravel
-*Mysql
+* PHP
+* Laravel
+* Mysql
 
 
 ## Como usar la API:
